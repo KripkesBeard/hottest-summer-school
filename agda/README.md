@@ -12,6 +12,8 @@ A cheat sheet for Agda (relative to VSCode with emacs mode on Windows).
 
 ### Commands
 
+| Command | Description | 
+| ------- | ------------ | 
 | C-c C-l | Typecheck your file |
 | C-c C-n | Normalize an expression |
 | C-c C-t | Normalize a type |
