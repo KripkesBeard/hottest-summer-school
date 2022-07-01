@@ -6,6 +6,10 @@ the [HoTTEST Summer School gitrepo](https://github.com/martinescardo/HoTTEST-Sum
 The lecture notes are included only because they are required
 for the homework to load correctly.
 
+[Labwork](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda/Exercises/Pool/Lab): 0/4
+
+[Homework](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda/Exercises/Pool/Homework): 0/5
+
 # Original
 
 Martin Escardo. Notes originally written for the module "Advanced Functional Programming" at the School of Computer Science of the University of Birmingham, UK.

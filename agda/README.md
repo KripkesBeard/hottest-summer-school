@@ -14,15 +14,20 @@ once this one is versioned it will be 0.4.)
 
 ## Structure
 
-### [The HoTT Game]()
+### [Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)
+
+I am assuming we'll be completing some project towards the end of the
+school, so it will be here.
+
+### [The HoTT Game](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game)
 
 This is a gitclone of The HoTT Game, original located 
 [here](https://github.com/thehottgame/theHoTTGame),
 which is a short introduction to theorem proving in Cubical Agda.
 
-Trinitarianism | Fundamental Group of the Circle
+[Trinitarianism](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game/0Trinitarianism) | [Fundamental Group of the Circle](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game/1FundamentalGroup)
 
-### [HoTTEST Summer School]()
+### [HoTTEST Summer School](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda)
 
 This is a gitclone of the summer school's Agda
 gitrepo, original located 
@@ -30,7 +35,7 @@ gitrepo, original located
 which contains the labwork, and homework for the Agda portion of the 
 program.
 
-Labwork | Homework
+[Labwork](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda/Exercises/Pool/Lab) | [Homework](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda/Exercises/Pool/Homework)
 
 ### [Cheat sheet](https://github.com/KripkesBeard/hottest-summer-school/blob/master/agda/cheatsheet.md)
 

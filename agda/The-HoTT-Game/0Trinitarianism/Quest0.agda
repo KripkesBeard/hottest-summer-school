@@ -13,7 +13,7 @@ TrueToTrue' x = tt
 data ⊥ : Type where
 
 explosion : ⊥ → ⊤
-explosion ()
+explosion x = tt
 
 data ℕ : Type where
   zero : ℕ

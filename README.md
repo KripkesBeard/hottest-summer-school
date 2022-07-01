@@ -9,12 +9,12 @@ dependently typed functional programming languages,specifically Agda, and some c
 
 ## Structure
 
-* [agda]()
-    - [Project]()
-    - [HoTT Game]()
-    - [Homework]()
+* [agda](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda)
+    - [Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)
+    - [HoTT Game](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game)
+    - [Homework](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda)
 
-* [notes]()
+* [notes](https://github.com/KripkesBeard/hottest-summer-school/tree/master/notes)
     - [day1]()
     - [day2]()
 
