@@ -1,2 +1,4 @@
 /ignore
 *.agdai
+*\_build
+

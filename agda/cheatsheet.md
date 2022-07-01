@@ -47,9 +47,9 @@ data Foo a where
   Baz :: forall a. a -> Foo a
 
 -- Pattern matching
-unwrapFoo :: forall a. Foo a -> a
-unwrapFoo (Bar a) = a
-unwrapFoo (Baz a) = a
+unwrap :: forall a. Foo a -> a
+unwrap (Bar a) = a
+unwrap (Baz a) = a
 ```
 
 Agda:
