@@ -19,14 +19,6 @@ once this one is versioned it will be 0.4.)
 I am assuming we'll be completing some project towards the end of the
 school, so it will be here.
 
-### [The HoTT Game](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game)
-
-This is a gitclone of The HoTT Game, original located 
-[here](https://github.com/thehottgame/theHoTTGame),
-which is a short introduction to theorem proving in Cubical Agda.
-
-[Trinitarianism](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game/0Trinitarianism) | [Fundamental Group of the Circle](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game/1FundamentalGroup)
-
 ### [HoTTEST Summer School](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda)
 
 This is a gitclone of the summer school's Agda

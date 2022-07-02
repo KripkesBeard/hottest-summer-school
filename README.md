@@ -4,14 +4,13 @@ This is a repository for my notes and code completed during the
 [HoTTEST Summer School program](https://uwo.ca/math/faculty/kapulkin/seminars/hottest_summer_school_2022.html) 
 hosted by Western University during the summer of 2022.
 
-The program was an introduction to homotopy type theory, and it covered topics relating to formalization of mathematics in
-dependently typed functional programming languages,specifically Agda, and some category theory.
+The program was an introduction to homotopy type theory and formalization of mathematics in a
+dependently typed functional programming languages, specifically Agda.
 
 ## Structure
 
 * [agda](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda)
     - [Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)
-    - [HoTT Game](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTT-Game)
     - [Homework](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda)
 
 * [notes](https://github.com/KripkesBeard/hottest-summer-school/tree/master/notes)
@@ -21,13 +20,10 @@ dependently typed functional programming languages,specifically Agda, and some c
 ## N.B.
 
 I cloned the 
-[HoTT Game repo](https://github.com/thehottgame/TheHoTTGame)
-and the 
 [Summer School's repo](https://github.com/martinescardo/HoTTEST-Summer-School)
 in order to have all of the homework code locally. All copyright and 
 credit goes to the original authors, of course, and the only changes I
-made were removing the example solutions to some of the homework, 
-removing some of the build files, for example the nix files for the 
-HoTT Game, and putting some of these N.B.'s saying the same things 
+made were removing the example solutions to the homework, 
+and putting some of these N.B.'s saying the same thing 
 throughout the READMEs. Thank you, so much, to all of the organizers, 
 presenters,TAs, and everyone else who made this summer school possible.
