@@ -14,21 +14,8 @@ once this one is versioned it will be 0.4.)
 
 ## Structure
 
-### [Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)
+[Agda vs. Haskell Cheat Sheet](https://github.com/KripkesBeard/hottest-summer-school/blob/master/agda/cheatsheet.md)
 
-I am assuming we'll be completing some project towards the end of the
-school, so it will be here.
+[Exercises](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Exercises)
 
-### [HoTTEST Summer School](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda)
-
-This is a gitclone of the summer school's Agda
-gitrepo, original located 
-[here](https://github.com/martinescardo/HoTTEST-Summer-School), 
-which contains the labwork, and homework for the Agda portion of the 
-program.
-
-[Labwork](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda/Exercises/Pool/Lab) | [Homework](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda/Exercises/Pool/Homework)
-
-### [Cheat sheet](https://github.com/KripkesBeard/hottest-summer-school/blob/master/agda/cheatsheet.md)
-
-Agda vs. Haskell cheatsheet.
+[Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)

@@ -11,7 +11,7 @@ dependently typed functional programming languages, specifically Agda.
 
 * [agda](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda)
     - [Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)
-    - [Homework](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/The-HoTTEST-Summer-School/Agda)
+    - [Exercises](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Exercises)
 
 * [notes](https://github.com/KripkesBeard/hottest-summer-school/tree/master/notes)
     - [day1]()
@@ -19,11 +19,8 @@ dependently typed functional programming languages, specifically Agda.
 
 ## N.B.
 
-I cloned the 
-[Summer School's repo](https://github.com/martinescardo/HoTTEST-Summer-School)
-in order to have all of the homework code locally. All copyright and 
-credit goes to the original authors, of course, and the only changes I
-made were removing the example solutions to the homework, 
-and putting some of these N.B.'s saying the same thing 
-throughout the READMEs. Thank you, so much, to all of the organizers, 
-presenters,TAs, and everyone else who made this summer school possible.
+In order to get the homework to typecheck, I had to locally clone the 
+[Summer School's repo](https://github.com/martinescardo/HoTTEST-Summer-School). 
+For the exercises, I copied the completed files into this repo so that I could
+upload them. All copyright, of course, stays with the original authors of those 
+files, I merely solved the exercises.
