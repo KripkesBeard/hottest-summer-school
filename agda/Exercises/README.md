@@ -9,7 +9,7 @@ and that's necessary to actually get the homework to run.
 But because I don't want to upload all of that, I am just
 copying the finished homework files into this directory,
 and also changing their file and module names slightly
-(adding a 0 in front of the name), so that they don't
+(adding two 0s in front of the name), so that they don't
 conflict with the source copies. In order to
 get these to typecheck, you need to also have a local
 copy of the summer school repo, tell Agda where
