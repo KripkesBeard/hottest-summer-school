@@ -10,13 +10,13 @@ the Cubical Agda library for HoTT.
 
 ## Structure
 
-* [agda](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda)
-    - [Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)
-    - [Exercises](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Exercises)
+* [Agda](https://github.com/KripkesBeard/hottest-summer-school/tree/master/Agda)
+    - [Exercises](https://github.com/KripkesBeard/hottest-summer-school/tree/master/Agda/Exercises)
+    - [Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/Agda/Project)
 
-* [notes](https://github.com/KripkesBeard/hottest-summer-school/tree/master/notes)
-    - [day1]()
-    - [day2]()
+* [HoTT](https://github.com/KripkesBeard/hottest-summer-school/tree/master/HoTT)
+    - [Notes](https://github.com/KripkesBeard/hottest-summer-school/tree/master/HoTT/Notes)
+    - [Worksheets](https://github.com/KripkesBeard/hottest-summer-school/tree/master/HoTT/Worksheets)
 
 ## N.B.
 
