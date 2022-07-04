@@ -14,8 +14,8 @@ once this one is versioned it will be 0.4.)
 
 ## Structure
 
-[Agda Cheat Sheet](https://github.com/KripkesBeard/hottest-summer-school/blob/master/Agda/cheatsheet.md)
+[Agda Cheat Sheet](https://github.com/KripkesBeard/hottest-summer-school/blob/master/agda/cheatsheet.md)
 
-[Exercises](https://github.com/KripkesBeard/hottest-summer-school/tree/master/Agda/Exercises)
+[Exercises](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Exercises)
 
-[Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/Agda/Project)
+[Project](https://github.com/KripkesBeard/hottest-summer-school/tree/master/agda/Project)
