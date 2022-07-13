@@ -269,5 +269,3 @@ to me and I'm not sure how it would be written without two clauses.
 
 [See here](https://wiki.portal.chalmers.se/agda/Libraries/Martin-L%f6fTypeTheory?from=Libraries.MLTT) and especially the book by 
 [Nordström, Petersson, and Smith](http://www.cse.chalmers.se/research/group/logic/book/book.pdf).
-
-MLTT is a sequent calculus, btw, not a ND.
