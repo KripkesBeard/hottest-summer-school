@@ -9,6 +9,7 @@ A cheat sheet for Agda (relative to VSCode with emacs mode on Windows).
   - [Comparison between Agda and Haskell Types](#comparison-between-agda-and-haskell-types)
     - [Haskell](#haskell)
     - [Agda](#agda)
+  - [Connection between Agda and MLTT](#connection-between-agda-and-mltt)
 
 ## Commands
 
@@ -240,3 +241,33 @@ As an answer, we have another sort, disjoint from ```Setₙ```s, called
 ```Setω``` which induces another infinite hierarchy of ```Setω+n```s. 
 This hierarchy, however, cannot be quantified over, and so we don't need
 to induce another infinite hierarchy.
+
+## Connection between Agda and MLTT
+
+In terms of going from MLTT to Agda, we take Pi takes for granded but phrases them in
+the (x : A) -> B way. Inductive types are defined in terms of their former, introduction, 
+and elimination rules, while the computation rules are, I guess, just part of the ambient beta 
+reduction of Agda? Agda actually handles the elimination rules itself as well, using 
+pattern matching, but we can write it ourselves if we want to. So in Agda, an 
+inductive type looks like 
+
+```Agda
+data Bool : Set where -- Type former
+  tt : Bool           -- Introduction
+  ff : Bool           -- |
+
+Bool-elim : (A : Bool -> Set) -> A tt -> A ff -> (x : Bool) -> A x -- Elimination
+Bool-elim A a1 a2 tt = a1                                          -- |
+Bool-elim A a1 a2 ff = a2                                          -- |
+```
+
+The type former is given by the signature in the data declaration. The introduction is given by the
+data constructors. Internally, Agda then lets you pattern match in the Haskell/ML way on them for
+elimination, but we can define elimination as a function itself which takes in the options for output
+depending on the constructor and returns the right one. Honestly, this still looks like pattern matching
+to me and I'm not sure how it would be written without two clauses.
+
+[See here](https://wiki.portal.chalmers.se/agda/Libraries/Martin-L%f6fTypeTheory?from=Libraries.MLTT) and especially the book by 
+[Nordström, Petersson, and Smith](http://www.cse.chalmers.se/research/group/logic/book/book.pdf).
+
+MLTT is a sequent calculus, btw, not a ND.
