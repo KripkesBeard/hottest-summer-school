@@ -9,6 +9,7 @@ A cheat sheet for Agda (relative to VSCode with emacs mode on Windows).
   - [Comparison between Agda and Haskell Types](#comparison-between-agda-and-haskell-types)
     - [Haskell](#haskell)
     - [Agda](#agda)
+  - [Dependent Types](#dependent-types)
   - [Connection between Agda and MLTT](#connection-between-agda-and-mltt)
 
 ## Commands
@@ -241,6 +242,46 @@ As an answer, we have another sort, disjoint from ```Setₙ```s, called
 ```Setω``` which induces another infinite hierarchy of ```Setω+n```s. 
 This hierarchy, however, cannot be quantified over, and so we don't need
 to induce another infinite hierarchy.
+
+## Dependent Types
+
+Sigma types are the disjoint union of an index set and a dependent type. That is,
+it's the collection of all pairs (x : A, B(x)). 
+
+```Agda
+open import Data.Product
+open import Data.Nat
+
+data Vect (A : Set) : ℕ → Set where
+  []   : Vect A zero
+  _::_ : {n : ℕ} → A → Vect A n → Vect A (suc n)
+infixr 5 _::_
+
+VectOfℕ : ℕ → Set
+VectOfℕ = Vect ℕ
+
+myVectOf3 : Σ ℕ VectOfℕ
+myVectOf3 = ( 3 , 1 :: 2 :: 3 :: [])
+
+myVectOf3' : Σ ℕ VectOfℕ
+myVectOf3' = ( 3 , 1 :: 2 :: 3 :: [])
+
+myVectOf2 : Σ ℕ VectOfℕ
+myVectOf2 = ( 2 , 2 :: 3 :: [])
+
+myVectOf2' : Σ ℕ VectOfℕ
+myVectOf2' = ( 2 , 420 :: 3 :: []) 
+```
+
+Anything of type ```Σ ℕ VectOfℕ``` is going to be a pair where the first element is a 
+number n and the second is a vector of length n. All lists of that length, not just 
+one, work with that index. The ```Σ``` syntax is internally a record and it expects 
+the second type to be a dependent function type that takes an element of the first 
+type as an argument. If we had used ```Vect ℕ``` as the type, we would have needed
+to put it in parentheses for parsing. Regular products are the special case of Σ 
+types where the second type doesn't actually depend on the first. If you want to use
+```Σ``` notation for those types, you need to wrap the second type with a lambda
+that throws away its argument, e.g. ```(λ _ → B)```.
 
 ## Connection between Agda and MLTT
 
