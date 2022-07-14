@@ -99,6 +99,20 @@ fooMap f (Bar a) = Bar (f a)
 fooMap f (Baz a) = Baz (f a)
 ```
 
+Agda can (sometimes? Always?) overload constructors. This is important because
+sometimes you might want to use a comma to separate things in multiple different 
+contexts. Agda lets you do this
+
+```Agda
+data Prod (A : Set) (B : Set) : Set where
+  _,_ : A → B → Prod A B
+
+data Prod' (A : Set) (B : Set) : Set where
+  _,_ : A → B → Prod' A B
+```
+
+and it's totally fine. It will (always? Sometimes?) figure out which ```,``` you mean.
+
 ## Comparison between Agda and Haskell Types
 
 
