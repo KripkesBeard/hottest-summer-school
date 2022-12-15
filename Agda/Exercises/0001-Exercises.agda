@@ -186,7 +186,10 @@ Bool-refl false = ⋆
 -}
 
 min-is-commutative : (n m : ℕ) → min n m ≡ min m n
-min-is-commutative = {!!}
+min-is-commutative zero zero = refl zero
+min-is-commutative zero (suc m) = refl zero
+min-is-commutative (suc n) zero = refl zero
+min-is-commutative (suc n) (suc m) = {!  !}
 
 {- Exercise 5
 -- Show that n ≡ n + 0 for every natural number n.
